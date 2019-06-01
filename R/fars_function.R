@@ -12,7 +12,7 @@
 #' @examples
 #' \dontrun
 #' {
-#' accident_2013 <- fars_read("~/data/accident_2014.csv.bz2")
+#' accident_2013 <- fars_read("~FARS/inst/data/accident_2014.csv.bz2")
 #' }
 #'
 #' @importFrom readr read_csv
