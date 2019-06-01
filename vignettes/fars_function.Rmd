@@ -1,0 +1,39 @@
+---
+title: "Fars_function"
+author: "Williams Ojo"
+date: "June 1, 2019"
+output:
+  pdf_document: default
+  rmarkdown::html_vignette: default
+  html_document:
+    df_print: paged
+vignette: |
+  %\VignetteIndexEntry{fars_introduction} %\VignetteEngine{knitr::rmarkdown} %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(FARS)
+library(dplyr)
+library(maps)
+library(readr)
+library(tidyr)
+```
+National Highway Traffic Safety Administration (NHTSA) Fatality Analysis Reporting System (FARS) allows for export of raw accident data with one file covering single year of data.
+
+Please obtain and store files in compressed CSV format, named according to this example: "accident_2013.csv.bz2" before using FARS functions of this package.
+
+## Typical Workflow
+
+As  a rule, you'll be using the functions in the following order:
+
+- `make_filename` to get the name of a data file for the specified year
+- `fars_read` to get full data for one year or 
+- `fars_summarize_years` to get summary information for multiple years with monthly breakdown
+- `fars_map_state` to have maps of accidents for the specified state and year plotted
