@@ -20,8 +20,7 @@ Reads a Fatality Analysis Reporting System (FARS) data file in CSV format and cr
 Returns an error if \code{filename} does not exist.
 }
 \examples{
-\dontrun
-{
+\dontrun{
 accident_2013 <- fars_read("inst/extdata/accident_2013.csv.bz2")
 }
 
