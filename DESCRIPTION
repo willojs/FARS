@@ -1,7 +1,7 @@
 Package: FARS
 Title: Read Fatality Analysis Reporting System (FARS) data
 Version: 0.1.0
-Authors: Williams Ojo
+Author: Williams Ojo
 Maintainer: Williams Ojo <houjoh@yahoo.com>
 Description: COURSERA: BUILDING R PACKAGES, Peer-graded Assignment.
 Depends: R (>= 3.3.3)
