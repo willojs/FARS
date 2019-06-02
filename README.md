@@ -2,7 +2,7 @@
 
 # Travis Badge
  <!-- badges: start -->
-  [![Travis build status](https://travis-ci.org/willojs/FARS.svg?branch=master)](https://travis-ci.org/willojs/FARS)
+  [![Travis build status](https://travis-ci.com/willojs/FARS.svg?branch=master)](https://travis-ci.org/willojs/FARS)
   <!-- badges: end -->
  
 # Introduction
