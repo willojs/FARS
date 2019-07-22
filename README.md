@@ -6,7 +6,7 @@
   <!-- badges: end -->
  
 # Introduction
-This packages is an assigment of the Coursera course "Building R Packages". It allows mapping test data from the US National Highway Traffic Safety Administration on traffic accidents.
+This package is an assigment of the Coursera course "Building R Packages". It allows mapping test data from the US National Highway Traffic Safety Administration on traffic accidents.
 This repository includes:
 1. A DESCRIPTION and NAMESPACE file
 2. A R/ folder where some R functions are stored in fars_functions.R
